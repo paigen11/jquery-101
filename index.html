@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+	.green {
+		color: green;
+	}
+
+	.read{
+		color: red;
+	}
+
+	.blue{
+		color: blue;
+	}
+
+	.fancy{
+		font-family: Cursive;
+	}
+</style>
+
+	<title>jQuery Introduction</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+	<script type="text/javascript" src="scripts.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="hide">Hide</button>
+			</div>
+		
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="show">Show</button>
+			</div>
+
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="toggle">Toggle</button>
+			</div>
+
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="html">HTML</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="prepend">Prepend</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="append">Append</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="css">CSS</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="each">Each</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="addClass">Add Class</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="removeClass">Remove Class</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="animate">Animate</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="delay">Delay</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="slideUp">Slide Up</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="slideDown">Slide Down</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="fadeIn">Fade In</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="fadeOut">Fade Out</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="replace">Replace</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="reset">Reset</button>
+			</div>
+			<div class="col-sm-3">
+				<button class="btn btn-primary" todo="wrap">Wrap</button>
+			</div>
+		</div>
+
+
+<!-- THE THING -->
+		<div class="row">
+			<div class="col-sm-6 text-center">
+				<button class="btn btn-success thing" id="thing"> Do something to Me</button>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
